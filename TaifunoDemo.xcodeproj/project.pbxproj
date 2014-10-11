@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		224FE33A19E9795E00BF88CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33919E9795E00BF88CA /* main.m */; };
+		224FE33D19E9795F00BF88CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33C19E9795F00BF88CA /* AppDelegate.m */; };
+		224FE34019E9795F00BF88CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33F19E9795F00BF88CA /* ViewController.m */; };
+		224FE34319E9795F00BF88CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34119E9795F00BF88CA /* Main.storyboard */; };
+		224FE34519E9795F00BF88CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34419E9795F00BF88CA /* Images.xcassets */; };
+		224FE34819E9795F00BF88CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34619E9795F00BF88CA /* LaunchScreen.xib */; };
+		224FE35419E9795F00BF88CA /* TaifunoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		224FE34E19E9795F00BF88CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 224FE32C19E9795E00BF88CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224FE33319E9795E00BF88CA;
+			remoteInfo = TaifunoDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		224FE33419E9795E00BF88CA /* TaifunoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaifunoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		224FE33819E9795E00BF88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224FE33919E9795E00BF88CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		224FE33B19E9795E00BF88CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		224FE33C19E9795F00BF88CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		224FE33E19E9795F00BF88CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		224FE33F19E9795F00BF88CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		224FE34219E9795F00BF88CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		224FE34419E9795F00BF88CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		224FE34719E9795F00BF88CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		224FE34D19E9795F00BF88CA /* TaifunoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaifunoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		224FE35219E9795F00BF88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaifunoDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		224FE33119E9795E00BF88CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224FE34A19E9795F00BF88CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		224FE32B19E9795E00BF88CA = {
+			isa = PBXGroup;
+			children = (
+				224FE33619E9795E00BF88CA /* TaifunoDemo */,
+				224FE35019E9795F00BF88CA /* TaifunoDemoTests */,
+				224FE33519E9795E00BF88CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		224FE33519E9795E00BF88CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				224FE33419E9795E00BF88CA /* TaifunoDemo.app */,
+				224FE34D19E9795F00BF88CA /* TaifunoDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		224FE33619E9795E00BF88CA /* TaifunoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				224FE33B19E9795E00BF88CA /* AppDelegate.h */,
+				224FE33C19E9795F00BF88CA /* AppDelegate.m */,
+				224FE33E19E9795F00BF88CA /* ViewController.h */,
+				224FE33F19E9795F00BF88CA /* ViewController.m */,
+				224FE34119E9795F00BF88CA /* Main.storyboard */,
+				224FE34419E9795F00BF88CA /* Images.xcassets */,
+				224FE34619E9795F00BF88CA /* LaunchScreen.xib */,
+				224FE33719E9795E00BF88CA /* Supporting Files */,
+			);
+			path = TaifunoDemo;
+			sourceTree = "<group>";
+		};
+		224FE33719E9795E00BF88CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224FE33819E9795E00BF88CA /* Info.plist */,
+				224FE33919E9795E00BF88CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		224FE35019E9795F00BF88CA /* TaifunoDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */,
+				224FE35119E9795F00BF88CA /* Supporting Files */,
+			);
+			path = TaifunoDemoTests;
+			sourceTree = "<group>";
+		};
+		224FE35119E9795F00BF88CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				224FE35219E9795F00BF88CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		224FE33319E9795E00BF88CA /* TaifunoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224FE35719E9795F00BF88CA /* Build configuration list for PBXNativeTarget "TaifunoDemo" */;
+			buildPhases = (
+				224FE33019E9795E00BF88CA /* Sources */,
+				224FE33119E9795E00BF88CA /* Frameworks */,
+				224FE33219E9795E00BF88CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaifunoDemo;
+			productName = TaifunoDemo;
+			productReference = 224FE33419E9795E00BF88CA /* TaifunoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		224FE34C19E9795F00BF88CA /* TaifunoDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 224FE35A19E9795F00BF88CA /* Build configuration list for PBXNativeTarget "TaifunoDemoTests" */;
+			buildPhases = (
+				224FE34919E9795F00BF88CA /* Sources */,
+				224FE34A19E9795F00BF88CA /* Frameworks */,
+				224FE34B19E9795F00BF88CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224FE34F19E9795F00BF88CA /* PBXTargetDependency */,
+			);
+			name = TaifunoDemoTests;
+			productName = TaifunoDemoTests;
+			productReference = 224FE34D19E9795F00BF88CA /* TaifunoDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		224FE32C19E9795E00BF88CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = taifuno;
+				TargetAttributes = {
+					224FE33319E9795E00BF88CA = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					224FE34C19E9795F00BF88CA = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 224FE33319E9795E00BF88CA;
+					};
+				};
+			};
+			buildConfigurationList = 224FE32F19E9795E00BF88CA /* Build configuration list for PBXProject "TaifunoDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 224FE32B19E9795E00BF88CA;
+			productRefGroup = 224FE33519E9795E00BF88CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				224FE33319E9795E00BF88CA /* TaifunoDemo */,
+				224FE34C19E9795F00BF88CA /* TaifunoDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224FE33219E9795E00BF88CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224FE34319E9795F00BF88CA /* Main.storyboard in Resources */,
+				224FE34819E9795F00BF88CA /* LaunchScreen.xib in Resources */,
+				224FE34519E9795F00BF88CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224FE34B19E9795F00BF88CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		224FE33019E9795E00BF88CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224FE34019E9795F00BF88CA /* ViewController.m in Sources */,
+				224FE33D19E9795F00BF88CA /* AppDelegate.m in Sources */,
+				224FE33A19E9795E00BF88CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224FE34919E9795F00BF88CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224FE35419E9795F00BF88CA /* TaifunoDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		224FE34F19E9795F00BF88CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224FE33319E9795E00BF88CA /* TaifunoDemo */;
+			targetProxy = 224FE34E19E9795F00BF88CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		224FE34119E9795F00BF88CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224FE34219E9795F00BF88CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		224FE34619E9795F00BF88CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				224FE34719E9795F00BF88CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		224FE35519E9795F00BF88CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		224FE35619E9795F00BF88CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		224FE35819E9795F00BF88CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaifunoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		224FE35919E9795F00BF88CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaifunoDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		224FE35B19E9795F00BF88CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaifunoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaifunoDemo.app/TaifunoDemo";
+			};
+			name = Debug;
+		};
+		224FE35C19E9795F00BF88CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaifunoDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaifunoDemo.app/TaifunoDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		224FE32F19E9795E00BF88CA /* Build configuration list for PBXProject "TaifunoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224FE35519E9795F00BF88CA /* Debug */,
+				224FE35619E9795F00BF88CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		224FE35719E9795F00BF88CA /* Build configuration list for PBXNativeTarget "TaifunoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224FE35819E9795F00BF88CA /* Debug */,
+				224FE35919E9795F00BF88CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		224FE35A19E9795F00BF88CA /* Build configuration list for PBXNativeTarget "TaifunoDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224FE35B19E9795F00BF88CA /* Debug */,
+				224FE35C19E9795F00BF88CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 224FE32C19E9795E00BF88CA /* Project object */;
+}
