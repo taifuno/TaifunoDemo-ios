@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		224FE33A19E9795E00BF88CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33919E9795E00BF88CA /* main.m */; };
 		224FE33D19E9795F00BF88CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33C19E9795F00BF88CA /* AppDelegate.m */; };
-		224FE34019E9795F00BF88CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33F19E9795F00BF88CA /* ViewController.m */; };
-		224FE34319E9795F00BF88CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34119E9795F00BF88CA /* Main.storyboard */; };
 		224FE34519E9795F00BF88CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34419E9795F00BF88CA /* Images.xcassets */; };
 		224FE34819E9795F00BF88CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34619E9795F00BF88CA /* LaunchScreen.xib */; };
 		224FE35419E9795F00BF88CA /* TaifunoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */; };
+		224FE36019E979D300BF88CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224FE35F19E979D300BF88CA /* QuartzCore.framework */; };
+		22CCADDD19EB2E5000B9EA0E /* TFDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */; };
+		22CCAE6D19EC1B1000B9EA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34119E9795F00BF88CA /* Main.storyboard */; };
+		22FB342E19F3074A007A9476 /* taifunoLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB342D19F3074A007A9476 /* taifunoLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22FB342F19F3074E007A9476 /* taifunoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FB342D19F3074A007A9476 /* taifunoLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,20 +29,36 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		22CCAE1E19EB3BA900B9EA0E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22FB342E19F3074A007A9476 /* taifunoLibrary.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		224FE33419E9795E00BF88CA /* TaifunoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaifunoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224FE33819E9795E00BF88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224FE33919E9795E00BF88CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		224FE33B19E9795E00BF88CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		224FE33C19E9795F00BF88CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		224FE33E19E9795F00BF88CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		224FE33F19E9795F00BF88CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		224FE34219E9795F00BF88CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		224FE34419E9795F00BF88CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		224FE34719E9795F00BF88CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		224FE34D19E9795F00BF88CA /* TaifunoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaifunoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		224FE35219E9795F00BF88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaifunoDemoTests.m; sourceTree = "<group>"; };
+		224FE35F19E979D300BF88CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22CCADDB19EB2E5000B9EA0E /* TFDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDemoViewController.h; sourceTree = "<group>"; };
+		22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDemoViewController.m; sourceTree = "<group>"; };
+		22FB342D19F3074A007A9476 /* taifunoLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = taifunoLibrary.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224FE36019E979D300BF88CA /* QuartzCore.framework in Frameworks */,
+				22FB342F19F3074E007A9476 /* taifunoLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,8 @@
 		224FE32B19E9795E00BF88CA = {
 			isa = PBXGroup;
 			children = (
+				22FB342D19F3074A007A9476 /* taifunoLibrary.framework */,
+				224FE35F19E979D300BF88CA /* QuartzCore.framework */,
 				224FE33619E9795E00BF88CA /* TaifunoDemo */,
 				224FE35019E9795F00BF88CA /* TaifunoDemoTests */,
 				224FE33519E9795E00BF88CA /* Products */,
@@ -81,10 +104,10 @@
 		224FE33619E9795E00BF88CA /* TaifunoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				22CCADDB19EB2E5000B9EA0E /* TFDemoViewController.h */,
+				22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */,
 				224FE33B19E9795E00BF88CA /* AppDelegate.h */,
 				224FE33C19E9795F00BF88CA /* AppDelegate.m */,
-				224FE33E19E9795F00BF88CA /* ViewController.h */,
-				224FE33F19E9795F00BF88CA /* ViewController.m */,
 				224FE34119E9795F00BF88CA /* Main.storyboard */,
 				224FE34419E9795F00BF88CA /* Images.xcassets */,
 				224FE34619E9795F00BF88CA /* LaunchScreen.xib */,
@@ -129,6 +152,7 @@
 				224FE33019E9795E00BF88CA /* Sources */,
 				224FE33119E9795E00BF88CA /* Frameworks */,
 				224FE33219E9795E00BF88CA /* Resources */,
+				22CCAE1E19EB3BA900B9EA0E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,7 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224FE34319E9795F00BF88CA /* Main.storyboard in Resources */,
+				22CCAE6D19EC1B1000B9EA0E /* Main.storyboard in Resources */,
 				224FE34819E9795F00BF88CA /* LaunchScreen.xib in Resources */,
 				224FE34519E9795F00BF88CA /* Images.xcassets in Resources */,
 			);
@@ -219,9 +243,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				224FE34019E9795F00BF88CA /* ViewController.m in Sources */,
 				224FE33D19E9795F00BF88CA /* AppDelegate.m in Sources */,
 				224FE33A19E9795E00BF88CA /* main.m in Sources */,
+				22CCADDD19EB2E5000B9EA0E /* TFDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,9 +367,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Debug-iphonesimulator",
+				);
 				INFOPLIST_FILE = TaifunoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 x86_64 i386 armv7s";
 			};
 			name = Debug;
 		};
@@ -353,9 +385,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Debug-iphonesimulator",
+				);
 				INFOPLIST_FILE = TaifunoDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "armv7 x86_64 i386 armv7s";
 			};
 			name = Release;
 		};
@@ -412,6 +451,7 @@
 				224FE35919E9795F00BF88CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		224FE35A19E9795F00BF88CA /* Build configuration list for PBXNativeTarget "TaifunoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +460,7 @@
 				224FE35C19E9795F00BF88CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
