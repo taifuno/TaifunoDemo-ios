@@ -18,23 +18,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [[TFTaifuno sharedInstance] setApiKey:@"b9d0d6f617414b6da419ce1d43c7d8d9"];
+    [[TFTaifuno sharedInstance] setApiKey:@"YOUR APIKEY HERE"];
     
-    if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)])
-    {
+    if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)]) {
             // iOS 8 Notifications
-        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:(UIUserNotificationTypeSound | UIUserNotificationTypeAlert) categories:nil]];
-        
+        [application registerUserNotificationSettings:[UIUserNotificationSettings settingsForTypes:
+                                                       (UIUserNotificationTypeSound | UIUserNotificationTypeAlert) categories:nil]];
         [application registerForRemoteNotifications];
-    }
-    else
-    {
+    } else {
             // iOS < 8 Notifications
         [application registerForRemoteNotificationTypes:
          (UIUserNotificationTypeBadge | UIUserNotificationTypeSound | UIUserNotificationTypeAlert)];
     }
     
-        // Override point for customization after application launch.
     return YES;
 }
 
@@ -44,6 +40,18 @@
     newToken = [newToken stringByReplacingOccurrencesOfString:@" " withString:@""];
     NSLog(@"My token is: %@", newToken);
     [[TFTaifuno sharedInstance] registerDeviceToken:newToken];
+}
+
+- (void)application:(UIApplication *)application didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    if ([userInfo[@"origin"] isEqualToString:@"Taifuno"])
+        [[TFTaifuno sharedInstance] didRecieveNewNotification:userInfo];
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+    [[TFTaifuno sharedInstance] saveTaifuno];
+}
+
+- (void)applicationDidBecomeActive:(UIApplication *)application {
 }
 
 @end

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4DF9D03B-D542-49F6-A9A0-328F3C1BB0A6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TaifunoDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>01379964B51A54B142A5F7638348118C6E4D1914</key>
+		<string>https://github.com/taifuno/TaifunoDemo-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TaifunoDemo.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>01379964B51A54B142A5F7638348118C6E4D1914</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/taifuno/TaifunoDemo-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>01379964B51A54B142A5F7638348118C6E4D1914</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>01379964B51A54B142A5F7638348118C6E4D1914</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TaifunoDemo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
