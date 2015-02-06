@@ -18,8 +18,7 @@
 - (void) startChatOnViewController:(UIViewController *) vc WithCallback:(void (^)()) callback;
 
     //notifications method
-- (NSNumber *) getNewMessageCount;
-- (void) recievedNewNotification:(NSDictionary *)userInfo;
+- (void) didRecieveNewNotification:(NSDictionary *)userInfo;
 - (void) registerDeviceToken:(NSString *) token;
 
     //save data
