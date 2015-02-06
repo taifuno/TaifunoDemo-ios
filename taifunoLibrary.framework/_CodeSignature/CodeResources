@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		VITNiW499/F+6nasxlm0U8E1aKM=
+		bDEcohWI7tEZZWsvGIhFlhtoEfc=
 		</data>
 		<key>Base.lproj/JSQMessages.strings</key>
 		<dict>
@@ -147,27 +147,27 @@
 		</data>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
-		Rodw+BR2M7N14dvBg8wsPErhd2Q=
+		qdoUP+F/GYtmODtm5tf2jdygGyc=
 		</data>
 		<key>JSQMessagesCollectionViewCellOutgoing.nib</key>
 		<data>
-		CjpfVlqkToiXG0cb6MYpUnl6jWA=
+		mgxN0UGJIHvEzKGk7iVBVQHd2m0=
 		</data>
 		<key>JSQMessagesLoadEarlierHeaderView.nib</key>
 		<data>
-		Gm3EpmjlFxoQA+TQR1PBOJf6XGk=
+		TzAuuQLeFUgp5kM2pxg7N2VCla0=
 		</data>
 		<key>JSQMessagesToolbarContentView.nib</key>
 		<data>
-		e6AT/3gAOh++4dIu73YzcNRZZ0o=
+		5Js/dEHf7hSnzp8bYf5LqsYuPcw=
 		</data>
 		<key>JSQMessagesTypingIndicatorFooterView.nib</key>
 		<data>
-		tYRyJ6JZOgDP7cS/nmvQI/QSPzg=
+		FdxN1dKhurBaMwyiwManRmB8vV8=
 		</data>
 		<key>JSQMessagesViewController.nib</key>
 		<data>
-		QUL5ydo+ED2c9ymRyUckebmcGDg=
+		VtpfdqmXyX02dNIyTrhLMTj1LIo=
 		</data>
 		<key>T.png</key>
 		<data>
@@ -179,7 +179,7 @@
 		</data>
 		<key>angle-mask@2x.png</key>
 		<data>
-		wLAWZXR5lRIDG9qyz46HhqL0dnw=
+		2P+j3evapGF9kvzcPf4PnLgcVBI=
 		</data>
 		<key>config@2x.png</key>
 		<data>
@@ -205,7 +205,7 @@
 		</dict>
 		<key>error@2x.png</key>
 		<data>
-		HqeNLdXB9oUNR3R50Ah0O1OBoyo=
+		BlAxhNMmxs0ex1FrX3ZjdbDV7lA=
 		</data>
 		<key>es.lproj/JSQMessages.strings</key>
 		<dict>
@@ -306,7 +306,7 @@
 		</data>
 		<key>success@2x.png</key>
 		<data>
-		c5tHp/nrhfgmP3So1BLIB5LjhCk=
+		VBHJt5Au9i3+s0CtuMaTuRMPHWc=
 		</data>
 		<key>tr.lproj/JSQMessages.strings</key>
 		<dict>
@@ -340,7 +340,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		VITNiW499/F+6nasxlm0U8E1aKM=
+		bDEcohWI7tEZZWsvGIhFlhtoEfc=
 		</data>
 		<key>Base.lproj/JSQMessages.strings</key>
 		<dict>
@@ -473,27 +473,27 @@
 		</data>
 		<key>JSQMessagesCollectionViewCellIncoming.nib</key>
 		<data>
-		Rodw+BR2M7N14dvBg8wsPErhd2Q=
+		qdoUP+F/GYtmODtm5tf2jdygGyc=
 		</data>
 		<key>JSQMessagesCollectionViewCellOutgoing.nib</key>
 		<data>
-		CjpfVlqkToiXG0cb6MYpUnl6jWA=
+		mgxN0UGJIHvEzKGk7iVBVQHd2m0=
 		</data>
 		<key>JSQMessagesLoadEarlierHeaderView.nib</key>
 		<data>
-		Gm3EpmjlFxoQA+TQR1PBOJf6XGk=
+		TzAuuQLeFUgp5kM2pxg7N2VCla0=
 		</data>
 		<key>JSQMessagesToolbarContentView.nib</key>
 		<data>
-		e6AT/3gAOh++4dIu73YzcNRZZ0o=
+		5Js/dEHf7hSnzp8bYf5LqsYuPcw=
 		</data>
 		<key>JSQMessagesTypingIndicatorFooterView.nib</key>
 		<data>
-		tYRyJ6JZOgDP7cS/nmvQI/QSPzg=
+		FdxN1dKhurBaMwyiwManRmB8vV8=
 		</data>
 		<key>JSQMessagesViewController.nib</key>
 		<data>
-		QUL5ydo+ED2c9ymRyUckebmcGDg=
+		VtpfdqmXyX02dNIyTrhLMTj1LIo=
 		</data>
 		<key>T.png</key>
 		<data>
@@ -505,7 +505,7 @@
 		</data>
 		<key>angle-mask@2x.png</key>
 		<data>
-		wLAWZXR5lRIDG9qyz46HhqL0dnw=
+		2P+j3evapGF9kvzcPf4PnLgcVBI=
 		</data>
 		<key>config@2x.png</key>
 		<data>
@@ -531,7 +531,7 @@
 		</dict>
 		<key>error@2x.png</key>
 		<data>
-		HqeNLdXB9oUNR3R50Ah0O1OBoyo=
+		BlAxhNMmxs0ex1FrX3ZjdbDV7lA=
 		</data>
 		<key>es.lproj/JSQMessages.strings</key>
 		<dict>
@@ -632,7 +632,7 @@
 		</data>
 		<key>success@2x.png</key>
 		<data>
-		c5tHp/nrhfgmP3So1BLIB5LjhCk=
+		VBHJt5Au9i3+s0CtuMaTuRMPHWc=
 		</data>
 		<key>tr.lproj/JSQMessages.strings</key>
 		<dict>
