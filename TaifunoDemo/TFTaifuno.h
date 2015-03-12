@@ -15,7 +15,7 @@
 
     //setup methods
 - (void) setApiKey:(NSString *) apiKey;
-- (void) startChatOnViewController:(UIViewController *) vc WithCallback:(void (^)()) callback;
+- (void) startChatOnViewController:(UIViewController *) vc;
 
     //notifications method
 - (void) didRecieveNewNotification:(NSDictionary *)userInfo;
@@ -24,6 +24,7 @@
     //save data
 - (void) saveTaifuno;
     //delete all data (If your user is logged out, for example
+- (void) didBecomeActive;
 - (void) signOut;
 
 @end

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import <taifunoLibrary/TFTaifuno.h>
+#import "TFTaifuno.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [[TFTaifuno sharedInstance] setApiKey:@"5ac7b63dd5b9407e8b894e44bac523d4"];
+    [[TFTaifuno sharedInstance] setApiKey:@"3fd03d3cc4ce455b9530f63c49ee1781"];
     
     if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)]) {
             // iOS 8 Notifications

@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224BB2591AB0D41E009E9BEE /* libTaifunoLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BB2561AB0D3F8009E9BEE /* libTaifunoLibrary.a */; };
+		224BB30D1AB0D9F2009E9BEE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BB30C1AB0D9F2009E9BEE /* libicucore.dylib */; };
 		224FE33A19E9795E00BF88CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33919E9795E00BF88CA /* main.m */; };
 		224FE33D19E9795F00BF88CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33C19E9795F00BF88CA /* AppDelegate.m */; };
 		224FE34519E9795F00BF88CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34419E9795F00BF88CA /* Images.xcassets */; };
 		224FE34819E9795F00BF88CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34619E9795F00BF88CA /* LaunchScreen.xib */; };
 		224FE35419E9795F00BF88CA /* TaifunoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */; };
 		224FE36019E979D300BF88CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224FE35F19E979D300BF88CA /* QuartzCore.framework */; };
-		2288F2441A84F108001C9523 /* taifunoLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2288F2431A84F108001C9523 /* taifunoLibrary.framework */; };
-		2288F2451A84F116001C9523 /* taifunoLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2288F2431A84F108001C9523 /* taifunoLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22CCADDD19EB2E5000B9EA0E /* TFDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */; };
 		22CCAE6D19EC1B1000B9EA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34119E9795F00BF88CA /* Main.storyboard */; };
+		22D5697A1AB0C60600B9DF4F /* TFTaifuno.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D569791AB0C60600B9DF4F /* TFTaifuno.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22EFECC91AB186E40091852B /* JSQMessages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22EFEC9C1AB186AD0091852B /* JSQMessages.strings */; };
+		22EFECCA1AB186E40091852B /* JSQMessagesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECB61AB186AD0091852B /* JSQMessagesAssets.bundle */; };
+		22EFECCB1AB186E40091852B /* JSQMessagesCollectionViewCellIncoming.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECB71AB186AD0091852B /* JSQMessagesCollectionViewCellIncoming.nib */; };
+		22EFECCC1AB186E40091852B /* JSQMessagesCollectionViewCellOutgoing.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECB81AB186AD0091852B /* JSQMessagesCollectionViewCellOutgoing.nib */; };
+		22EFECCD1AB186E40091852B /* JSQMessagesLoadEarlierHeaderView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECB91AB186AD0091852B /* JSQMessagesLoadEarlierHeaderView.nib */; };
+		22EFECCE1AB186E40091852B /* JSQMessagesToolbarContentView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECBA1AB186AD0091852B /* JSQMessagesToolbarContentView.nib */; };
+		22EFECCF1AB186E40091852B /* JSQMessagesTypingIndicatorFooterView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECBB1AB186AD0091852B /* JSQMessagesTypingIndicatorFooterView.nib */; };
+		22EFECD01AB186E40091852B /* JSQMessagesViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECBC1AB186AD0091852B /* JSQMessagesViewController.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,13 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		2288F2391A84D671001C9523 /* Embed Frameworks */ = {
+		225320F81AAF161E00105848 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				2288F2451A84F116001C9523 /* taifunoLibrary.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,6 +52,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		224BB2561AB0D3F8009E9BEE /* libTaifunoLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTaifunoLibrary.a; sourceTree = "<group>"; };
+		224BB30C1AB0D9F2009E9BEE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		224FE33419E9795E00BF88CA /* TaifunoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaifunoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224FE33819E9795E00BF88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224FE33919E9795E00BF88CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -56,9 +66,31 @@
 		224FE35219E9795F00BF88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaifunoDemoTests.m; sourceTree = "<group>"; };
 		224FE35F19E979D300BF88CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		2288F2431A84F108001C9523 /* taifunoLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = taifunoLibrary.framework; sourceTree = "<group>"; };
 		22CCADDB19EB2E5000B9EA0E /* TFDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDemoViewController.h; sourceTree = "<group>"; };
 		22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDemoViewController.m; sourceTree = "<group>"; };
+		22D569791AB0C60600B9DF4F /* TFTaifuno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTaifuno.h; sourceTree = "<group>"; };
+		22EFEC9D1AB186AD0091852B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFEC9E1AB186AD0091852B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFEC9F1AB186AD0091852B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECA01AB186AD0091852B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECA11AB186AD0091852B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECA21AB186AD0091852B /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECB51AB186AD0091852B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECB61AB186AD0091852B /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JSQMessagesAssets.bundle; sourceTree = "<group>"; };
+		22EFECB71AB186AD0091852B /* JSQMessagesCollectionViewCellIncoming.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesCollectionViewCellIncoming.nib; sourceTree = "<group>"; };
+		22EFECB81AB186AD0091852B /* JSQMessagesCollectionViewCellOutgoing.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesCollectionViewCellOutgoing.nib; sourceTree = "<group>"; };
+		22EFECB91AB186AD0091852B /* JSQMessagesLoadEarlierHeaderView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesLoadEarlierHeaderView.nib; sourceTree = "<group>"; };
+		22EFECBA1AB186AD0091852B /* JSQMessagesToolbarContentView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesToolbarContentView.nib; sourceTree = "<group>"; };
+		22EFECBB1AB186AD0091852B /* JSQMessagesTypingIndicatorFooterView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesTypingIndicatorFooterView.nib; sourceTree = "<group>"; };
+		22EFECBC1AB186AD0091852B /* JSQMessagesViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesViewController.nib; sourceTree = "<group>"; };
+		22EFECBD1AB186AD0091852B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECBE1AB186AD0091852B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECBF1AB186AD0091852B /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECC01AB186AD0091852B /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECC11AB186AD0091852B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECC21AB186AD0091852B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/JSQMessages.strings; sourceTree = "<group>"; };
+		22EFECC71AB186AD0091852B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/JSQMessages.strings"; sourceTree = "<group>"; };
+		22EFECC81AB186AD0091852B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/JSQMessages.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +98,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224BB30D1AB0D9F2009E9BEE /* libicucore.dylib in Frameworks */,
+				224BB2591AB0D41E009E9BEE /* libTaifunoLibrary.a in Frameworks */,
 				224FE36019E979D300BF88CA /* QuartzCore.framework in Frameworks */,
-				2288F2441A84F108001C9523 /* taifunoLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +117,9 @@
 		224FE32B19E9795E00BF88CA = {
 			isa = PBXGroup;
 			children = (
-				2288F2431A84F108001C9523 /* taifunoLibrary.framework */,
+				22EFEC9B1AB186AD0091852B /* Resources */,
+				224BB30C1AB0D9F2009E9BEE /* libicucore.dylib */,
+				224BB2561AB0D3F8009E9BEE /* libTaifunoLibrary.a */,
 				224FE35F19E979D300BF88CA /* QuartzCore.framework */,
 				224FE33619E9795E00BF88CA /* TaifunoDemo */,
 				224FE35019E9795F00BF88CA /* TaifunoDemoTests */,
@@ -106,6 +141,7 @@
 			children = (
 				22CCADDB19EB2E5000B9EA0E /* TFDemoViewController.h */,
 				22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */,
+				22D569791AB0C60600B9DF4F /* TFTaifuno.h */,
 				224FE33B19E9795E00BF88CA /* AppDelegate.h */,
 				224FE33C19E9795F00BF88CA /* AppDelegate.m */,
 				224FE34119E9795F00BF88CA /* Main.storyboard */,
@@ -142,7 +178,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		22EFEC9B1AB186AD0091852B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22EFEC9C1AB186AD0091852B /* JSQMessages.strings */,
+				22EFECB61AB186AD0091852B /* JSQMessagesAssets.bundle */,
+				22EFECB71AB186AD0091852B /* JSQMessagesCollectionViewCellIncoming.nib */,
+				22EFECB81AB186AD0091852B /* JSQMessagesCollectionViewCellOutgoing.nib */,
+				22EFECB91AB186AD0091852B /* JSQMessagesLoadEarlierHeaderView.nib */,
+				22EFECBA1AB186AD0091852B /* JSQMessagesToolbarContentView.nib */,
+				22EFECBB1AB186AD0091852B /* JSQMessagesTypingIndicatorFooterView.nib */,
+				22EFECBC1AB186AD0091852B /* JSQMessagesViewController.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		22D569781AB0C5DA00B9DF4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22D5697A1AB0C60600B9DF4F /* TFTaifuno.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		224FE33319E9795E00BF88CA /* TaifunoDemo */ = {
@@ -152,7 +214,8 @@
 				224FE33019E9795E00BF88CA /* Sources */,
 				224FE33119E9795E00BF88CA /* Frameworks */,
 				224FE33219E9795E00BF88CA /* Resources */,
-				2288F2391A84D671001C9523 /* Embed Frameworks */,
+				225320F81AAF161E00105848 /* Embed Frameworks */,
+				22D569781AB0C5DA00B9DF4F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -207,6 +270,19 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
+				es,
+				fr,
+				he,
+				it,
+				nl,
+				pl,
+				pt,
+				ro,
+				ru,
+				tr,
+				"zh-Hans",
+				"zh-Hant",
 			);
 			mainGroup = 224FE32B19E9795E00BF88CA;
 			productRefGroup = 224FE33519E9795E00BF88CA /* Products */;
@@ -224,6 +300,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22EFECC91AB186E40091852B /* JSQMessages.strings in Resources */,
+				22EFECCA1AB186E40091852B /* JSQMessagesAssets.bundle in Resources */,
+				22EFECCB1AB186E40091852B /* JSQMessagesCollectionViewCellIncoming.nib in Resources */,
+				22EFECCC1AB186E40091852B /* JSQMessagesCollectionViewCellOutgoing.nib in Resources */,
+				22EFECCD1AB186E40091852B /* JSQMessagesLoadEarlierHeaderView.nib in Resources */,
+				22EFECCE1AB186E40091852B /* JSQMessagesToolbarContentView.nib in Resources */,
+				22EFECCF1AB186E40091852B /* JSQMessagesTypingIndicatorFooterView.nib in Resources */,
+				22EFECD01AB186E40091852B /* JSQMessagesViewController.nib in Resources */,
 				22CCAE6D19EC1B1000B9EA0E /* Main.storyboard in Resources */,
 				224FE34819E9795F00BF88CA /* LaunchScreen.xib in Resources */,
 				224FE34519E9795F00BF88CA /* Images.xcassets in Resources */,
@@ -285,6 +369,28 @@
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
+		22EFEC9C1AB186AD0091852B /* JSQMessages.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22EFEC9D1AB186AD0091852B /* Base */,
+				22EFEC9E1AB186AD0091852B /* de */,
+				22EFEC9F1AB186AD0091852B /* en */,
+				22EFECA01AB186AD0091852B /* es */,
+				22EFECA11AB186AD0091852B /* fr */,
+				22EFECA21AB186AD0091852B /* he */,
+				22EFECB51AB186AD0091852B /* it */,
+				22EFECBD1AB186AD0091852B /* nl */,
+				22EFECBE1AB186AD0091852B /* pl */,
+				22EFECBF1AB186AD0091852B /* pt */,
+				22EFECC01AB186AD0091852B /* ro */,
+				22EFECC11AB186AD0091852B /* ru */,
+				22EFECC21AB186AD0091852B /* tr */,
+				22EFECC71AB186AD0091852B /* zh-Hans */,
+				22EFECC81AB186AD0091852B /* zh-Hant */,
+			);
+			name = JSQMessages.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -325,7 +431,9 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Debug;
 		};
@@ -346,7 +454,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Boris Sokolov (L9C5B6HDVU)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Boris Sokolov (L9C5B6HDVU)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -359,8 +468,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i386";
 			};
 			name = Release;
 		};
@@ -375,13 +486,21 @@
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Debug-iphonesimulator",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Release-iphoneos",
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = TaifunoDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 x86_64 i386 armv7s arm64";
+				VALID_ARCHS = "armv7 armv7s x86_64";
 			};
 			name = Debug;
 		};
@@ -396,13 +515,21 @@
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Debug-iphonesimulator",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Release-iphoneos",
 				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
 				INFOPLIST_FILE = TaifunoDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/Taifuno-fozreryqwmmsqjcqgobtwlyorzod/Build/Products/Debug-iphonesimulator",
+					"$(PROJECT_DIR)",
+				);
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALID_ARCHS = "armv7 x86_64 i386 armv7s arm64";
+				VALID_ARCHS = "armv7 armv7s x86_64";
 			};
 			name = Release;
 		};

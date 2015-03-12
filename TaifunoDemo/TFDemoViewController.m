@@ -7,7 +7,7 @@
 //
 
 #import "TFDemoViewController.h"
-#import <taifunoLibrary/TFTaifuno.h>
+#import "TFTaifuno.h"
 
 @interface TFDemoViewController ()
 
@@ -28,7 +28,7 @@
 }
 
 - (IBAction)runTaifunoButtonPressed:(id)sender {
-    [[TFTaifuno sharedInstance] startChatOnViewController:self WithCallback:^(){}];
+    [[TFTaifuno sharedInstance] startChatOnViewController:self];
 }
 
 @end
