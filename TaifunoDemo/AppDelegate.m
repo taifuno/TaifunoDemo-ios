@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    [[TFTaifuno sharedInstance] setApiKey:@"3fd03d3cc4ce455b9530f63c49ee1781"];
+    [[TFTaifuno sharedInstance] setApiKey:@"YOUR TAIFUNO API KEY HERE"];
     
     if ([application respondsToSelector:@selector(isRegisteredForRemoteNotifications)]) {
             // iOS 8 Notifications

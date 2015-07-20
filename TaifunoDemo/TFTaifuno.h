@@ -11,11 +11,31 @@
 
 @interface TFTaifuno : NSObject
 
+@property(nonatomic, copy) NSString *headerStarsString;
+@property(nonatomic, copy) NSString *bodyStarsString;
+
+@property(nonatomic, copy) NSString *headerRateString;
+@property(nonatomic, copy) NSString *bodyRateString;
+
+@property(nonatomic, strong) UIColor *rateBackgroundColor;
+@property(nonatomic, strong) UIColor *rateFontColor;
+
 + (TFTaifuno *) sharedInstance;
 
     //setup methods
 - (void) setApiKey:(NSString *) apiKey;
+
+    //custom parameters setup
+- (void) setUserId:(NSString *) id;
+- (void) setUserEmail:(NSString *) email;
+    //If you want - you can instantiate sending of params by yourself.
+    //Otherwise - they will be sent before starting chat
+- (void) sendUserParams;
+
+    //start taifuno chat
 - (void) startChatOnViewController:(UIViewController *) vc;
+- (void) startChatOnViewController:(UIViewController *) vc withInfo:(NSString *) info;
+
 
     //notifications method
 - (void) didRecieveNewNotification:(NSDictionary *)userInfo;

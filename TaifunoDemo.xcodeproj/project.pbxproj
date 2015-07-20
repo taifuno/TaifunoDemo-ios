@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		224BB2591AB0D41E009E9BEE /* libTaifunoLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BB2561AB0D3F8009E9BEE /* libTaifunoLibrary.a */; };
 		224BB30D1AB0D9F2009E9BEE /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 224BB30C1AB0D9F2009E9BEE /* libicucore.dylib */; };
 		224FE33A19E9795E00BF88CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33919E9795E00BF88CA /* main.m */; };
 		224FE33D19E9795F00BF88CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE33C19E9795F00BF88CA /* AppDelegate.m */; };
@@ -15,17 +14,32 @@
 		224FE34819E9795F00BF88CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34619E9795F00BF88CA /* LaunchScreen.xib */; };
 		224FE35419E9795F00BF88CA /* TaifunoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */; };
 		224FE36019E979D300BF88CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 224FE35F19E979D300BF88CA /* QuartzCore.framework */; };
+		22A24E041B2F644F003DFC60 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DEE1B2F644F003DFC60 /* Base.lproj */; };
+		22A24E051B2F644F003DFC60 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DEF1B2F644F003DFC60 /* de.lproj */; };
+		22A24E061B2F644F003DFC60 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF01B2F644F003DFC60 /* en.lproj */; };
+		22A24E071B2F644F003DFC60 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF11B2F644F003DFC60 /* es.lproj */; };
+		22A24E081B2F644F003DFC60 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF21B2F644F003DFC60 /* fr.lproj */; };
+		22A24E091B2F644F003DFC60 /* he.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF31B2F644F003DFC60 /* he.lproj */; };
+		22A24E0A1B2F644F003DFC60 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF41B2F644F003DFC60 /* it.lproj */; };
+		22A24E0B1B2F644F003DFC60 /* JSQMessagesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF51B2F644F003DFC60 /* JSQMessagesAssets.bundle */; };
+		22A24E0C1B2F644F003DFC60 /* JSQMessagesCollectionViewCellIncoming.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF61B2F644F003DFC60 /* JSQMessagesCollectionViewCellIncoming.nib */; };
+		22A24E0D1B2F644F003DFC60 /* JSQMessagesCollectionViewCellOutgoing.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF71B2F644F003DFC60 /* JSQMessagesCollectionViewCellOutgoing.nib */; };
+		22A24E0E1B2F644F003DFC60 /* JSQMessagesLoadEarlierHeaderView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF81B2F644F003DFC60 /* JSQMessagesLoadEarlierHeaderView.nib */; };
+		22A24E0F1B2F644F003DFC60 /* JSQMessagesToolbarContentView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DF91B2F644F003DFC60 /* JSQMessagesToolbarContentView.nib */; };
+		22A24E101B2F644F003DFC60 /* JSQMessagesTypingIndicatorFooterView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DFA1B2F644F003DFC60 /* JSQMessagesTypingIndicatorFooterView.nib */; };
+		22A24E111B2F644F003DFC60 /* JSQMessagesViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DFB1B2F644F003DFC60 /* JSQMessagesViewController.nib */; };
+		22A24E121B2F644F003DFC60 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DFC1B2F644F003DFC60 /* nl.lproj */; };
+		22A24E131B2F644F003DFC60 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DFD1B2F644F003DFC60 /* pl.lproj */; };
+		22A24E141B2F644F003DFC60 /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DFE1B2F644F003DFC60 /* pt.lproj */; };
+		22A24E151B2F644F003DFC60 /* ro.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24DFF1B2F644F003DFC60 /* ro.lproj */; };
+		22A24E161B2F644F003DFC60 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24E001B2F644F003DFC60 /* ru.lproj */; };
+		22A24E171B2F644F003DFC60 /* tr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24E011B2F644F003DFC60 /* tr.lproj */; };
+		22A24E181B2F644F003DFC60 /* zh-Hans.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24E021B2F644F003DFC60 /* zh-Hans.lproj */; };
+		22A24E191B2F644F003DFC60 /* zh-Hant.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 22A24E031B2F644F003DFC60 /* zh-Hant.lproj */; };
+		22A24E1B1B2F6468003DFC60 /* TaifunoLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22A24E1A1B2F6468003DFC60 /* TaifunoLibrary.a */; };
+		22A24E1D1B2F6484003DFC60 /* TFTaifuno.h in Headers */ = {isa = PBXBuildFile; fileRef = 22A24E1C1B2F6484003DFC60 /* TFTaifuno.h */; };
 		22CCADDD19EB2E5000B9EA0E /* TFDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */; };
 		22CCAE6D19EC1B1000B9EA0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224FE34119E9795F00BF88CA /* Main.storyboard */; };
-		22D5697A1AB0C60600B9DF4F /* TFTaifuno.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D569791AB0C60600B9DF4F /* TFTaifuno.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22EFECC91AB186E40091852B /* JSQMessages.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22EFEC9C1AB186AD0091852B /* JSQMessages.strings */; };
-		22EFECCA1AB186E40091852B /* JSQMessagesAssets.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECB61AB186AD0091852B /* JSQMessagesAssets.bundle */; };
-		22EFECCB1AB186E40091852B /* JSQMessagesCollectionViewCellIncoming.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECB71AB186AD0091852B /* JSQMessagesCollectionViewCellIncoming.nib */; };
-		22EFECCC1AB186E40091852B /* JSQMessagesCollectionViewCellOutgoing.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECB81AB186AD0091852B /* JSQMessagesCollectionViewCellOutgoing.nib */; };
-		22EFECCD1AB186E40091852B /* JSQMessagesLoadEarlierHeaderView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECB91AB186AD0091852B /* JSQMessagesLoadEarlierHeaderView.nib */; };
-		22EFECCE1AB186E40091852B /* JSQMessagesToolbarContentView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECBA1AB186AD0091852B /* JSQMessagesToolbarContentView.nib */; };
-		22EFECCF1AB186E40091852B /* JSQMessagesTypingIndicatorFooterView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECBB1AB186AD0091852B /* JSQMessagesTypingIndicatorFooterView.nib */; };
-		22EFECD01AB186E40091852B /* JSQMessagesViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 22EFECBC1AB186AD0091852B /* JSQMessagesViewController.nib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +66,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		224BB2561AB0D3F8009E9BEE /* libTaifunoLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTaifunoLibrary.a; sourceTree = "<group>"; };
 		224BB30C1AB0D9F2009E9BEE /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
 		224FE33419E9795E00BF88CA /* TaifunoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaifunoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		224FE33819E9795E00BF88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,31 +79,32 @@
 		224FE35219E9795F00BF88CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		224FE35319E9795F00BF88CA /* TaifunoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaifunoDemoTests.m; sourceTree = "<group>"; };
 		224FE35F19E979D300BF88CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		22A24DEE1B2F644F003DFC60 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		22A24DEF1B2F644F003DFC60 /* de.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = de.lproj; sourceTree = "<group>"; };
+		22A24DF01B2F644F003DFC60 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = en.lproj; sourceTree = "<group>"; };
+		22A24DF11B2F644F003DFC60 /* es.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = es.lproj; sourceTree = "<group>"; };
+		22A24DF21B2F644F003DFC60 /* fr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fr.lproj; sourceTree = "<group>"; };
+		22A24DF31B2F644F003DFC60 /* he.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = he.lproj; sourceTree = "<group>"; };
+		22A24DF41B2F644F003DFC60 /* it.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = it.lproj; sourceTree = "<group>"; };
+		22A24DF51B2F644F003DFC60 /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JSQMessagesAssets.bundle; sourceTree = "<group>"; };
+		22A24DF61B2F644F003DFC60 /* JSQMessagesCollectionViewCellIncoming.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesCollectionViewCellIncoming.nib; sourceTree = "<group>"; };
+		22A24DF71B2F644F003DFC60 /* JSQMessagesCollectionViewCellOutgoing.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesCollectionViewCellOutgoing.nib; sourceTree = "<group>"; };
+		22A24DF81B2F644F003DFC60 /* JSQMessagesLoadEarlierHeaderView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesLoadEarlierHeaderView.nib; sourceTree = "<group>"; };
+		22A24DF91B2F644F003DFC60 /* JSQMessagesToolbarContentView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesToolbarContentView.nib; sourceTree = "<group>"; };
+		22A24DFA1B2F644F003DFC60 /* JSQMessagesTypingIndicatorFooterView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesTypingIndicatorFooterView.nib; sourceTree = "<group>"; };
+		22A24DFB1B2F644F003DFC60 /* JSQMessagesViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesViewController.nib; sourceTree = "<group>"; };
+		22A24DFC1B2F644F003DFC60 /* nl.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = nl.lproj; sourceTree = "<group>"; };
+		22A24DFD1B2F644F003DFC60 /* pl.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pl.lproj; sourceTree = "<group>"; };
+		22A24DFE1B2F644F003DFC60 /* pt.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pt.lproj; sourceTree = "<group>"; };
+		22A24DFF1B2F644F003DFC60 /* ro.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ro.lproj; sourceTree = "<group>"; };
+		22A24E001B2F644F003DFC60 /* ru.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ru.lproj; sourceTree = "<group>"; };
+		22A24E011B2F644F003DFC60 /* tr.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tr.lproj; sourceTree = "<group>"; };
+		22A24E021B2F644F003DFC60 /* zh-Hans.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hans.lproj"; sourceTree = "<group>"; };
+		22A24E031B2F644F003DFC60 /* zh-Hant.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "zh-Hant.lproj"; sourceTree = "<group>"; };
+		22A24E1A1B2F6468003DFC60 /* TaifunoLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = TaifunoLibrary.a; sourceTree = "<group>"; };
+		22A24E1C1B2F6484003DFC60 /* TFTaifuno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTaifuno.h; sourceTree = "<group>"; };
 		22CCADDB19EB2E5000B9EA0E /* TFDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFDemoViewController.h; sourceTree = "<group>"; };
 		22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFDemoViewController.m; sourceTree = "<group>"; };
-		22D569791AB0C60600B9DF4F /* TFTaifuno.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTaifuno.h; sourceTree = "<group>"; };
-		22EFEC9D1AB186AD0091852B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFEC9E1AB186AD0091852B /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFEC9F1AB186AD0091852B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECA01AB186AD0091852B /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECA11AB186AD0091852B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECA21AB186AD0091852B /* he */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = he; path = he.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECB51AB186AD0091852B /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECB61AB186AD0091852B /* JSQMessagesAssets.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JSQMessagesAssets.bundle; sourceTree = "<group>"; };
-		22EFECB71AB186AD0091852B /* JSQMessagesCollectionViewCellIncoming.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesCollectionViewCellIncoming.nib; sourceTree = "<group>"; };
-		22EFECB81AB186AD0091852B /* JSQMessagesCollectionViewCellOutgoing.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesCollectionViewCellOutgoing.nib; sourceTree = "<group>"; };
-		22EFECB91AB186AD0091852B /* JSQMessagesLoadEarlierHeaderView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesLoadEarlierHeaderView.nib; sourceTree = "<group>"; };
-		22EFECBA1AB186AD0091852B /* JSQMessagesToolbarContentView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesToolbarContentView.nib; sourceTree = "<group>"; };
-		22EFECBB1AB186AD0091852B /* JSQMessagesTypingIndicatorFooterView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesTypingIndicatorFooterView.nib; sourceTree = "<group>"; };
-		22EFECBC1AB186AD0091852B /* JSQMessagesViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = JSQMessagesViewController.nib; sourceTree = "<group>"; };
-		22EFECBD1AB186AD0091852B /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECBE1AB186AD0091852B /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECBF1AB186AD0091852B /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECC01AB186AD0091852B /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECC11AB186AD0091852B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECC21AB186AD0091852B /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/JSQMessages.strings; sourceTree = "<group>"; };
-		22EFECC71AB186AD0091852B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/JSQMessages.strings"; sourceTree = "<group>"; };
-		22EFECC81AB186AD0091852B /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/JSQMessages.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +113,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				224BB30D1AB0D9F2009E9BEE /* libicucore.dylib in Frameworks */,
-				224BB2591AB0D41E009E9BEE /* libTaifunoLibrary.a in Frameworks */,
+				22A24E1B1B2F6468003DFC60 /* TaifunoLibrary.a in Frameworks */,
 				224FE36019E979D300BF88CA /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -119,7 +133,7 @@
 			children = (
 				22EFEC9B1AB186AD0091852B /* Resources */,
 				224BB30C1AB0D9F2009E9BEE /* libicucore.dylib */,
-				224BB2561AB0D3F8009E9BEE /* libTaifunoLibrary.a */,
+				22A24E1A1B2F6468003DFC60 /* TaifunoLibrary.a */,
 				224FE35F19E979D300BF88CA /* QuartzCore.framework */,
 				224FE33619E9795E00BF88CA /* TaifunoDemo */,
 				224FE35019E9795F00BF88CA /* TaifunoDemoTests */,
@@ -141,7 +155,7 @@
 			children = (
 				22CCADDB19EB2E5000B9EA0E /* TFDemoViewController.h */,
 				22CCADDC19EB2E5000B9EA0E /* TFDemoViewController.m */,
-				22D569791AB0C60600B9DF4F /* TFTaifuno.h */,
+				22A24E1C1B2F6484003DFC60 /* TFTaifuno.h */,
 				224FE33B19E9795E00BF88CA /* AppDelegate.h */,
 				224FE33C19E9795F00BF88CA /* AppDelegate.m */,
 				224FE34119E9795F00BF88CA /* Main.storyboard */,
@@ -181,14 +195,28 @@
 		22EFEC9B1AB186AD0091852B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				22EFEC9C1AB186AD0091852B /* JSQMessages.strings */,
-				22EFECB61AB186AD0091852B /* JSQMessagesAssets.bundle */,
-				22EFECB71AB186AD0091852B /* JSQMessagesCollectionViewCellIncoming.nib */,
-				22EFECB81AB186AD0091852B /* JSQMessagesCollectionViewCellOutgoing.nib */,
-				22EFECB91AB186AD0091852B /* JSQMessagesLoadEarlierHeaderView.nib */,
-				22EFECBA1AB186AD0091852B /* JSQMessagesToolbarContentView.nib */,
-				22EFECBB1AB186AD0091852B /* JSQMessagesTypingIndicatorFooterView.nib */,
-				22EFECBC1AB186AD0091852B /* JSQMessagesViewController.nib */,
+				22A24DEE1B2F644F003DFC60 /* Base.lproj */,
+				22A24DEF1B2F644F003DFC60 /* de.lproj */,
+				22A24DF01B2F644F003DFC60 /* en.lproj */,
+				22A24DF11B2F644F003DFC60 /* es.lproj */,
+				22A24DF21B2F644F003DFC60 /* fr.lproj */,
+				22A24DF31B2F644F003DFC60 /* he.lproj */,
+				22A24DF41B2F644F003DFC60 /* it.lproj */,
+				22A24DF51B2F644F003DFC60 /* JSQMessagesAssets.bundle */,
+				22A24DF61B2F644F003DFC60 /* JSQMessagesCollectionViewCellIncoming.nib */,
+				22A24DF71B2F644F003DFC60 /* JSQMessagesCollectionViewCellOutgoing.nib */,
+				22A24DF81B2F644F003DFC60 /* JSQMessagesLoadEarlierHeaderView.nib */,
+				22A24DF91B2F644F003DFC60 /* JSQMessagesToolbarContentView.nib */,
+				22A24DFA1B2F644F003DFC60 /* JSQMessagesTypingIndicatorFooterView.nib */,
+				22A24DFB1B2F644F003DFC60 /* JSQMessagesViewController.nib */,
+				22A24DFC1B2F644F003DFC60 /* nl.lproj */,
+				22A24DFD1B2F644F003DFC60 /* pl.lproj */,
+				22A24DFE1B2F644F003DFC60 /* pt.lproj */,
+				22A24DFF1B2F644F003DFC60 /* ro.lproj */,
+				22A24E001B2F644F003DFC60 /* ru.lproj */,
+				22A24E011B2F644F003DFC60 /* tr.lproj */,
+				22A24E021B2F644F003DFC60 /* zh-Hans.lproj */,
+				22A24E031B2F644F003DFC60 /* zh-Hant.lproj */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -200,7 +228,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D5697A1AB0C60600B9DF4F /* TFTaifuno.h in Headers */,
+				22A24E1D1B2F6484003DFC60 /* TFTaifuno.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,16 +328,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22EFECC91AB186E40091852B /* JSQMessages.strings in Resources */,
-				22EFECCA1AB186E40091852B /* JSQMessagesAssets.bundle in Resources */,
-				22EFECCB1AB186E40091852B /* JSQMessagesCollectionViewCellIncoming.nib in Resources */,
-				22EFECCC1AB186E40091852B /* JSQMessagesCollectionViewCellOutgoing.nib in Resources */,
-				22EFECCD1AB186E40091852B /* JSQMessagesLoadEarlierHeaderView.nib in Resources */,
-				22EFECCE1AB186E40091852B /* JSQMessagesToolbarContentView.nib in Resources */,
-				22EFECCF1AB186E40091852B /* JSQMessagesTypingIndicatorFooterView.nib in Resources */,
-				22EFECD01AB186E40091852B /* JSQMessagesViewController.nib in Resources */,
 				22CCAE6D19EC1B1000B9EA0E /* Main.storyboard in Resources */,
+				22A24E0E1B2F644F003DFC60 /* JSQMessagesLoadEarlierHeaderView.nib in Resources */,
+				22A24E0F1B2F644F003DFC60 /* JSQMessagesToolbarContentView.nib in Resources */,
 				224FE34819E9795F00BF88CA /* LaunchScreen.xib in Resources */,
+				22A24E041B2F644F003DFC60 /* Base.lproj in Resources */,
+				22A24E0D1B2F644F003DFC60 /* JSQMessagesCollectionViewCellOutgoing.nib in Resources */,
+				22A24E071B2F644F003DFC60 /* es.lproj in Resources */,
+				22A24E121B2F644F003DFC60 /* nl.lproj in Resources */,
+				22A24E101B2F644F003DFC60 /* JSQMessagesTypingIndicatorFooterView.nib in Resources */,
+				22A24E051B2F644F003DFC60 /* de.lproj in Resources */,
+				22A24E0C1B2F644F003DFC60 /* JSQMessagesCollectionViewCellIncoming.nib in Resources */,
+				22A24E171B2F644F003DFC60 /* tr.lproj in Resources */,
+				22A24E131B2F644F003DFC60 /* pl.lproj in Resources */,
+				22A24E081B2F644F003DFC60 /* fr.lproj in Resources */,
+				22A24E151B2F644F003DFC60 /* ro.lproj in Resources */,
+				22A24E141B2F644F003DFC60 /* pt.lproj in Resources */,
+				22A24E111B2F644F003DFC60 /* JSQMessagesViewController.nib in Resources */,
+				22A24E061B2F644F003DFC60 /* en.lproj in Resources */,
+				22A24E191B2F644F003DFC60 /* zh-Hant.lproj in Resources */,
+				22A24E091B2F644F003DFC60 /* he.lproj in Resources */,
+				22A24E181B2F644F003DFC60 /* zh-Hans.lproj in Resources */,
+				22A24E0A1B2F644F003DFC60 /* it.lproj in Resources */,
+				22A24E0B1B2F644F003DFC60 /* JSQMessagesAssets.bundle in Resources */,
+				22A24E161B2F644F003DFC60 /* ru.lproj in Resources */,
 				224FE34519E9795F00BF88CA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -367,28 +409,6 @@
 				224FE34719E9795F00BF88CA /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-		22EFEC9C1AB186AD0091852B /* JSQMessages.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22EFEC9D1AB186AD0091852B /* Base */,
-				22EFEC9E1AB186AD0091852B /* de */,
-				22EFEC9F1AB186AD0091852B /* en */,
-				22EFECA01AB186AD0091852B /* es */,
-				22EFECA11AB186AD0091852B /* fr */,
-				22EFECA21AB186AD0091852B /* he */,
-				22EFECB51AB186AD0091852B /* it */,
-				22EFECBD1AB186AD0091852B /* nl */,
-				22EFECBE1AB186AD0091852B /* pl */,
-				22EFECBF1AB186AD0091852B /* pt */,
-				22EFECC01AB186AD0091852B /* ro */,
-				22EFECC11AB186AD0091852B /* ru */,
-				22EFECC21AB186AD0091852B /* tr */,
-				22EFECC71AB186AD0091852B /* zh-Hans */,
-				22EFECC81AB186AD0091852B /* zh-Hant */,
-			);
-			name = JSQMessages.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -479,6 +499,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -508,6 +530,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
